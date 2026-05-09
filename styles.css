@@ -1526,3 +1526,15 @@ a {
   display: block;
   object-fit: contain;
 }
+.logo-brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.site-logo {
+  width: 40px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
