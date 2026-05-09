@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explore SuqSphere Marketplace - discover products, services, and creators" />
+  <title>Marketplace — SuqSphere</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav-shell" id="navShell">
+        <div class="brand">
+          <div class="brand-mark">S</div>
+          <div>
+            <div class="brand-title">SuqSphere</div>
+            <div class="brand-subtitle">Africa's Ecosystem</div>
+          </div>
+        </div>
+        <div class="nav-links">
+          <a href="features.html">Features</a>
+          <a href="marketplace.html">Marketplace</a>
+          <a href="about.html">About</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="vendor.html">For Sellers</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="nav-actions">
+          <a class="btn btn-secondary" href="#" style="font-size: 14px;">Sign In</a>
+          <a class="btn btn-primary" href="index.html#join">Get Started</a>
+          <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+<!-- Page Hero -->
+<section 
+  class="hero" 
+  style="
+    padding: 100px 0 60px;
+    min-height: 560px;
+    background-image:
+      linear-gradient(
+        rgba(0, 0, 0, 0.76),
+        rgba(0, 0, 0, 0.783)
+      ),
+      url('./images/web (6).jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  "
+>
+  <div class="container">
+    <div style="max-width: 900px; margin: 0 auto;">
+      <div style="color: bisque;" class="label reveal">For Sellers</div>
+      <h1 class="reveal" style="margin-top: 24px; font-size: clamp(48px, 6.5vw, 72px); color: bisque; line-height: 1.2">Scale your business. Reach millions. Grow fast.</h1>
+      <p class="reveal" style="margin-top: 24px; font-size: 20px; color: white; line-height: 1.7;">
+        With SuqSphere, you get access to a community of millions of customers, integrated payment processing, and tools built specifically for African sellers.
+      </p>
+      <div class="hero-actions reveal" style="margin-top: 32px;">
+        <a class="btn btn-primary btn-lg" href="index.html#join">Start Selling Free</a>
+        <a class="btn btn-secondary btn-lg" href="contact.html">Schedule a Demo</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Search & Recommendations -->
+  <section class="section">
+    <div class="container">
+      <div class="reveal" style="max-width: 980px; margin: 0 auto; display: grid; gap: 24px;">
+        <div style="background: var(--white); padding: 32px; border-radius: var(--radius-2xl); border: 1px solid var(--border-light); box-shadow: var(--shadow-sm);">
+          <div style="display: grid; gap: 18px;">
+            <div style="font-weight: 700; font-size: 18px;">Find what matters</div>
+            <div style="display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: center;">
+              <input type="search" placeholder="Search products, gigs, creators..." style="width: 100%; padding: 16px 20px; border-radius: var(--radius-full); border: 1px solid var(--border); font-size: 16px; font-family: inherit;" />
+              <button class="btn btn-primary" style="padding: 16px 28px;">Search</button>
+            </div>
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px;">
+          <span class="badge">All Categories</span>
+          <span class="badge yellow">Commerce</span>
+          <span class="badge green">Gigs</span>
+          <span class="badge">Creators</span>
+          <span class="badge">Digital Services</span>
+          <span class="badge">Local Brands</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="section" style="background: linear-gradient(135deg, rgba(53, 75, 50, 0.05) 0%, rgba(246, 226, 111, 0.03) 100%);">
+    <div class="container">
+      <h2 class="reveal" style="font-size: clamp(36px, 4.5vw, 56px); font-weight: 800; text-align: center; margin-bottom: 56px;">Browse by category</h2>
+      <div class="card-grid">
+        <div class="reveal feature-card card-hover">
+          <div class="feature-icon yellow">🛍️</div>
+          <h3>Commerce</h3>
+          <p>Shop curated products from verified African sellers, with fast checkout and delivery tracking.</p>
+          <span class="badge">18K products</span>
+        </div>
+
+        <div class="reveal feature-card card-hover">
+          <div class="feature-icon green">💼</div>
+          <h3>Gigs</h3>
+          <p>Hire top talent for design, marketing, development, content, and more.</p>
+          <span class="badge">9K gigs</span>
+        </div>
+
+        <div class="reveal feature-card card-hover">
+          <div class="feature-icon yellow">🎤</div>
+          <h3>Creators</h3>
+          <p>Discover creators for collaborations, sponsorships, and community building.</p>
+          <span class="badge">4K creators</span>
+        </div>
+
+        <div class="reveal feature-card card-hover">
+          <div class="feature-icon green">📈</div>
+          <h3>Services</h3>
+          <p>Book expert services with transparent pricing, instant booking, and secure payments.</p>
+          <span class="badge">6K services</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trending -->
+  <section class="section">
+    <div class="container">
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: start;">
+        <div class="reveal">
+          <h2 style="font-size: clamp(36px, 4.5vw, 56px); font-weight: 800; margin-bottom: 24px;">Trending right now</h2>
+          <p style="font-size: 18px; color: var(--muted); line-height: 1.8; margin-bottom: 32px;">
+            These categories and products are seeing the strongest demand across the SuqSphere marketplace.
+          </p>
+          <ul style="display: grid; gap: 16px; list-style: none; padding: 0; margin: 0;">
+            <li style="background: var(--white); border: 1px solid var(--border-light); border-radius: var(--radius-lg); padding: 24px; display: grid; gap: 8px;">
+              <div style="display: flex; justify-content: space-between; gap: 12px; align-items: center;">
+                <span style="font-weight: 700;">Fashion Drops</span>
+                <span class="badge yellow">Top seller</span>
+              </div>
+              <p style="margin: 0; color: var(--muted); font-size: 14px;">Local fashion brands are selling out faster than ever with mobile-first discovery.</p>
+            </li>
+            <li style="background: var(--white); border: 1px solid var(--border-light); border-radius: var(--radius-lg); padding: 24px; display: grid; gap: 8px;">
+              <div style="display: flex; justify-content: space-between; gap: 12px; align-items: center;">
+                <span style="font-weight: 700;">Web & App Development</span>
+                <span class="badge green">High demand</span>
+              </div>
+              <p style="margin: 0; color: var(--muted); font-size: 14px;">Businesses are hiring digital teams to move online quickly, especially for e-commerce launches.</p>
+            </li>
+            <li style="background: var(--white); border: 1px solid var(--border-light); border-radius: var(--radius-lg); padding: 24px; display: grid; gap: 8px;">
+              <div style="display: flex; justify-content: space-between; gap: 12px; align-items: center;">
+                <span style="font-weight: 700;">Creator Campaigns</span>
+                <span class="badge">New</span>
+              </div>
+              <p style="margin: 0; color: var(--muted); font-size: 14px;">Brands are partnering with creators for impact-driven campaigns and trusted stories.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="reveal" style="background: linear-gradient(135deg, rgba(246, 226, 111, 0.2) 0%, rgba(53, 75, 50, 0.1) 100%); border-radius: 40px; padding: 60px; display: flex; align-items: center; justify-content: center; min-height: 400px;">
+          <div style="text-align: center;">
+            <div style="font-size: 80px; line-height: 1;">🔍</div>
+            <p style="font-weight: 700; font-size: 18px; margin-top: 24px;">Search made simple</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Sellers -->
+  <section class="section" style="background: linear-gradient(135deg, rgba(246, 226, 111, 0.05) 0%, rgba(53, 75, 50, 0.03) 100%);">
+    <div class="container">
+      <h2 class="reveal" style="font-size: clamp(36px, 4.5vw, 56px); font-weight: 800; text-align: center; margin-bottom: 56px;">Featured sellers</h2>
+      <div class="card-grid">
+        <div class="reveal feature-card card-hover">
+          <h3>Neo Market</h3>
+          <p>High-quality fashion, accessories, and lifestyle products from Lagos-based designers.</p>
+          <span class="badge">4.9 rating</span>
+        </div>
+        <div class="reveal feature-card card-hover">
+          <h3>CodeHive Labs</h3>
+          <p>Web development and digital product design services with fast delivery and local support.</p>
+          <span class="badge green">Top rated</span>
+        </div>
+        <div class="reveal feature-card card-hover">
+          <h3>Kwanza Creators</h3>
+          <p>Creative campaigns, influencer partnerships, and community-first content services.</p>
+          <span class="badge yellow">Trusted</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section join-section">
+    <div class="container">
+      <div class="cta-shell reveal">
+        <div class="cta-grid">
+          <div>
+            <h2 style="margin: 0; color: white; font-size: clamp(36px, 4.5vw, 56px); font-weight: 800;">Start exploring now</h2>
+            <p style="margin: 16px 0 0; color: rgba(255, 255, 255, 0.82); font-size: 18px;">
+              Discover the best of African commerce, gigs, and community in one intelligent marketplace.
+            </p>
+            <div class="cta-actions" style="margin-top: 28px;">
+              <a class="btn btn-yellow btn-lg" href="index.html#join">Browse Marketplace</a>
+              <a class="btn btn-outline-light btn-lg" href="contact.html">Talk to Sales</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-brand">
+            <div class="brand-mark">S</div>
+            <div>
+              <h4>SuqSphere</h4>
+              <p>Africa's Ecosystem</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Product</h5>
+          <ul>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="vendor.html">For Sellers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="investor.html">Investor Relations</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Press</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Resources</h5>
+          <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Partners</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 SuqSphere. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
