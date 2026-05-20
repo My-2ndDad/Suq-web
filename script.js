@@ -164,3 +164,23 @@ if (header) {
   });
   
 }
+const founderCards = document.querySelectorAll('.founder-card');
+
+const founderObserver = new IntersectionObserver(
+(entries)=>{
+    entries.forEach(entry=>{
+
+        if(entry.isIntersecting){
+
+            entry.target.classList.add('active');
+
+        }
+    });
+},
+{
+    threshold:0.25
+});
+
+founderCards.forEach(card=>{
+    founderObserver.observe(card);
+});
